@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+    <style>
+        /* Basic styles for the navigation bar */
+        .navbar {
+            display: flex;
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .navbar input[type=text] {
+            float: left;
+            padding: 6px;
+            margin-top: 8px;
+            margin-right: 16px;
+            border: none;
+        }
+
+        .navbar button {
+            float: left;
+            padding: 10px 16px;
+            margin-top: 8px;
+            margin-right: 16px;
+            background-color: #ddd;
+            border: none;
+            cursor: pointer;
+        }
+
+        .navbar button:hover {
+            background-color: #ccc;
+        }
+
+        /* Background image and content styling */
+        body {
+            background-image: url('P8285219.JPG');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .content {
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            margin: 20px;
+            border-radius: 10px;
+        }
+
+        .content h1 {
+            text-align: center;
+        }
+
+        .team-section, .contact-section {
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            margin: 20px;
+            border-radius: 10px;
+        }
+
+        .team-section h2, .contact-section h2 {
+            text-align: center;
+        }
+
+        .team-member {
+            margin-bottom: 10px;
+        }
+
+        .team-member h3 {
+            margin: 0;
+        }
+
+        .team-member p {
+            margin: 0;
+            font-style: italic;
+        }
+
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .contact-form input, .contact-form textarea {
+            width: 80%;
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .contact-form button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #333;
+            color: white;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <img src="10489634.jpg" alt="logo" style="width:32px;height:32px;">
+        <a href="travel_recommendation.html">Home</a>
+        <a href="travel_about_us.html">About Us</a>
+        <a href="travel_contact_us.html">Contact Us</a>
+    </div>
+
+    <div class="content">
+        <h1>Contact Us</h1>
+        <p>We will be with you forever.</p>
+    </div>
+
+    <div class="contact-section" id="contact">
+        <form class="contact-form">
+            <input type="text" name="name" placeholder="Your Name">
+            <input type="email" name="email" placeholder="Your Email">
+            <textarea name="message" placeholder="Your Message" rows="5"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+</body>
+</html>
